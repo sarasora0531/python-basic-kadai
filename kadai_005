@@ -1,0 +1,10 @@
+# 台形の各辺の長さを定義
+top = 10  # 上辺
+bottom = 20  # 下辺
+height = 5  # 高さ
+
+# 台形の面積を計算
+area = (top + bottom) * height / 2
+
+# 結果を出力
+print(f"{area}cm²")
