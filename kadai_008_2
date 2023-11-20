@@ -1,0 +1,15 @@
+# 変数varに正の整数を代入
+var = 15  # この値はテストする任意の正の整数に置き換えてください
+
+# 3の倍数かつ5の倍数の場合
+if var % 3 == 0 and var % 5 == 0:
+    print("FizzBuzz")
+# 3の倍数の場合
+elif var % 3 == 0:
+    print("Fizz")
+# 5の倍数の場合
+elif var % 5 == 0:
+    print("Buzz")
+# それ以外の場合
+else:
+    print(var)
