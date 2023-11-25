@@ -1,8 +1,7 @@
-def calculate_total_price(price):
-    total_price = price * 1.1 
+def calculate_total_price(price, tax):
 
-    price = 1000
+    total_price = price * (1 + tax)
 
     print(f"税込価格： {total_price}")  
 
-calculate_total_price(price)
+calculate_total_price(1000, 0.1)
